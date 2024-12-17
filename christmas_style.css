@@ -1,0 +1,58 @@
+body{
+    background-color: darkgreen;
+    margin: auto;
+    background-image: url("kerst.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: "Britannic Bold";
+    color: red;
+
+}
+.information_box{
+    margin: auto;
+    padding: 20px;
+    background-color: darkred;
+    width: 25%;
+    margin-left: 10%;
+    border: 3px solid black;
+    font-size: 30px;
+
+}
+#location_description{
+    text-align: center;
+    border: black solid 1px;
+}
+#location_description tr:nth-child(even){
+    background-color: forestgreen;
+    text-align: left;
+}
+#location_description tr:hover{
+    background-color: grey;}
+#location_description th{
+    padding-top: 1px;
+    text-align: left;
+    background-color: yellow;   
+    padding-right:20px;
+}
+#location_description tr{
+    background-color: red;
+    text-align: left;
+}
+#class{
+    text-align: center;
+}
+.bring{
+    text-align: left;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    width: 20%;
+    border: 3px solid black;
+    margin-top: -260px;
+    margin-left: 60%;
+    font-size: 200%;
+}
